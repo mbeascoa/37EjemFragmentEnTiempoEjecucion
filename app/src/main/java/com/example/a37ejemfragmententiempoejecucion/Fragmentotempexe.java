@@ -35,10 +35,10 @@ public class Fragmentotempexe extends Fragment {
         RelativeLayout.LayoutParams params =    new RelativeLayout.LayoutParams(
                 RelativeLayout.LayoutParams.MATCH_PARENT,
                 RelativeLayout.LayoutParams.MATCH_PARENT);
-        //Colocamos el fragmento debajo del boton de la actividad principal
+        //Colocamos el fragmento debajo del boton de la actividad principal que se llama button1
         params.addRule(RelativeLayout.BELOW, R.id.button1);
         //Podrimaos mocificar los márgenes left, top, right y bottom
-        params.setMargins(0,0,0,0);
+        params.setMargins(12,12,12,12);
         //Enviamos los parámetros
         view.setLayoutParams(params);
 
